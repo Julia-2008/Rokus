@@ -182,20 +182,3 @@ footer a {
 .pet-link:hover {
   transform: translateY(-10px); /* Adds hover effect */
 }
-.back-home {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
-  background-color: #ff6f61;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.back-home:hover {
-  background-color: #e85f56;
-  transform: scale(1.05);
-}
