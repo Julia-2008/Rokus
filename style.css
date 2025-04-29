@@ -145,3 +145,21 @@ footer a {
   text-decoration: none;
   font-weight: bold;
 }
+.pet-box {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.pet-name {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.pet-description {
+  font-size: 1em;
+  color: #666;
+}
