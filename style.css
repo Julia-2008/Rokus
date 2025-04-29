@@ -4,17 +4,13 @@
   --color-light-bg: rgba(255, 255, 255, 0.95);
   --color-border: #fad0c4;
   --color-accent: #ff6f61;
-  --gradient-overlay: linear-gradient(120deg, rgba(255,154,158,0.85), rgba(250,208,196,0.85));
   --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 body {
   font-family: var(--font-main);
-  background: var(--gradient-overlay), url('https://m.gettywallpapers.com/wp-content/uploads/2022/11/Wallpaper-Minimalism-Beige-Aesthetic.jpg');
-  background-attachment: fixed;
+  background: url('https://m.gettywallpapers.com/wp-content/uploads/2022/11/Wallpaper-Minimalism-Beige-Aesthetic.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: var(--color-dark);
   display: flex;
   flex-direction: column;
@@ -23,7 +19,6 @@ body {
   min-height: 100vh; /* Ensures full vertical centering */
   padding: 20px;
 }
-
 .container {
   width: 100%;
   max-width: 1000px;
