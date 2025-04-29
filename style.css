@@ -170,3 +170,12 @@ footer a {
   font-size: 1em;
   color: #666;
 }
+.pet-link {
+  display: block; /* Makes the entire box clickable */
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color */
+}
+
+.pet-link:hover {
+  transform: translateY(-10px); /* Adds hover effect */
+}
