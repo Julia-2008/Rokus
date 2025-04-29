@@ -146,11 +146,12 @@ footer a {
   font-weight: bold;
 }
 .pet-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Space between the boxes */
-  list-style: none;
-  padding: 0;
+  display: flex;               /* Switch to flexbox layout */
+  justify-content: space-between; /* Distribute the boxes evenly */
+  gap: 20px;                   /* Add spacing between the boxes */
+  list-style: none;            /* Remove bullet points */
+  padding: 0;                  /* Remove default padding */
+  margin: 0 auto;              /* Center the row horizontally on the page */
 }
 
 .pet-box {
@@ -159,6 +160,8 @@ footer a {
   padding: 15px;
   text-align: center;
   background-color: #f9f9f9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 200px;                /* Set a fixed width for each box */
 }
 
 .pet-name {
