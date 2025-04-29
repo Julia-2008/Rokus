@@ -357,3 +357,87 @@ footer a:hover {
       padding: 30px;
   }
 }
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb), url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+  background-size: cover, auto;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+  line-height: 1.6;
+  min-height: 100vh;
+  animation: gradient-move 10s ease infinite;
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(120deg, rgba(255, 154, 158, 0.8), rgba(250, 208, 196, 0.8)), url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+}
+
+/* Section Divider */
+.section-divider {
+  height: 4px;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
+  margin: 40px 0;
+  border-radius: 2px;
+}
+
+/* Floating Decorative Shapes */
+.floating-shape {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+  z-index: -1;
+}
+
+.floating-shape:nth-child(1) {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.floating-shape:nth-child(2) {
+  top: 50%;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.floating-shape:nth-child(3) {
+  top: 80%;
+  left: 30%;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
