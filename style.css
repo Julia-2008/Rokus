@@ -35,8 +35,9 @@ body {
   width: 100%;
   padding: 80px 20px;
   text-align: center;
-  color: white;
-  background: linear-gradient(120deg, rgba(255,154,158,0.85), rgba(250,208,196,0.85)), url('https://via.placeholder.com/1200x400');
+  color: var(--color-dark);
+  background: linear-gradient(120deg, rgba(187, 158, 132, 0.85), rgba(139, 69, 19, 0.85)), 
+              url('https://m.gettywallpapers.com/wp-content/uploads/2022/11/Wallpaper-Minimalism-Beige-Aesthetic.jpg');
   background-size: cover;
   background-position: center;
   border-bottom: 6px solid var(--color-border);
