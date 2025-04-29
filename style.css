@@ -80,3 +80,27 @@ button:hover {
   background-color: #e85f56;
   transform: scale(1.05);
 }
+/* Media Section */
+.media-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.media-image {
+  width: 300px;
+  height: auto;
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.media-video {
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
