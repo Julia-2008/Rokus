@@ -187,15 +187,20 @@ footer a {
     flex-wrap: wrap; /* Wrap to the next line if necessary */
     gap: 10px; /* Add spacing between images */
 
-.pet-images {
-  display: flex;
-  justify-content: center; /* Align images horizontally */
-  gap: 10px; /* Add spacing between images */
+/* Ensure images maintain their aspect ratio */
+.pet-images img, .pet-link img {
+    width: auto; /* Allows the image width to adjust */
+    max-width: 100%; /* Prevents the image from overflowing the container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any extra spacing caused by inline-block default */
+    margin: 0 auto; /* Centers the image horizontally */
+    object-fit: contain; /* Ensures the image fits nicely within the container */
 }
 
-.pet-images img {
-  width: 200px; /* Adjust size as needed */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 0px; /* Shapt edges
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
+/* Optional: Fix for flexbox-based layouts */
+.pet-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing between images */
+    justify-content: center; /* Aligns items in the center */
 }
