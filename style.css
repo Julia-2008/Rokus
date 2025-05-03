@@ -186,16 +186,21 @@ footer a {
     display: flex; /* Align images side by side */
     flex-wrap: wrap; /* Wrap to the next line if necessary */
     gap: 10px; /* Add spacing between images */
-
-.pet-images {
-  display: flex; /* Align images side by side */
-  flex-wrap: wrap; /* Wrap to the next line if necessary */
+}
+  .pet-images {
+  display: flex; /* Align images in a horizontal row */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
   gap: 15px; /* Add spacing between images */
-  justify-content: center; /* Aligns items in the center */
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Align the images vertically */
+  overflow-x: auto; /* Enable horizontal scrolling if the images overflow */
+  padding: 10px; /* Add padding around the images */
 }
 
 .pet-images img {
-  width: 200px; /* Adjust size as needed */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Prevent distortion */
+  height: 150px; /* Set a fixed height for all images */
+  width: auto; /* Adjust the width automatically to maintain aspect ratio */
+  object-fit: contain; /* Ensure the images fit nicely within the given size */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
 }
