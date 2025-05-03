@@ -198,7 +198,7 @@ footer a {
 }
 
 .pet-images img {
-  height: 150px; /* Set a fixed height for all images */
+  height: 250px; /* Set a fixed height for all images */
   width: auto; /* Adjust the width automatically to maintain aspect ratio */
   object-fit: contain; /* Ensure the images fit nicely within the given size */
   border-radius: 10px; /* Optional: Add rounded corners */
