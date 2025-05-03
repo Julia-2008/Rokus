@@ -193,12 +193,3 @@ img {
     border-radius: 10px; /* Keep the rounded corners */
     margin: 10px; /* Maintain spacing */
     box-shadow: var(--box-shadow); /* Retain the shadow for polish */
-}
-/* Ensure images inside a container are aligned */
-.image-container {
-    display: flex; /* Use flexbox for alignment */
-    flex-wrap: wrap; /* Allow wrapping to the next line */
-    gap: 15px; /* Add spacing between images */
-    justify-content: center; /* Center images horizontally */
-    align-items: center; /* Align images vertically */
-}
