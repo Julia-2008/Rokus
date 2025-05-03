@@ -187,23 +187,19 @@ footer a {
     flex-wrap: wrap; /* Wrap to the next line if necessary */
     gap: 10px; /* Add spacing between images */
 }
-
 .pet-image {
     width: 200px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
     border: 1px solid #ccc; /* Optional: Add a border */
     border-radius: 5px; /* Optional: Add rounded corners */
 }
-/* Standardize all images */
 img {
-    width: 200px; /* Set a consistent width for all images */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: cover; /* Crop images to fit if necessary */
-    border-radius: 10px; /* Add rounded corners */
-    margin: 10px; /* Add spacing around images */
-    box-shadow: var(--box-shadow); /* Add a subtle shadow for polish */
+    height: 200px; /* Fixed height */
+    width: auto; /* Allow width to adjust proportionally */
+    border-radius: 10px; /* Keep the rounded corners */
+    margin: 10px; /* Maintain spacing */
+    box-shadow: var(--box-shadow); /* Retain the shadow for polish */
 }
-
 /* Ensure images inside a container are aligned */
 .image-container {
     display: flex; /* Use flexbox for alignment */
