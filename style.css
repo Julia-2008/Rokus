@@ -194,3 +194,21 @@ footer a {
     border: 1px solid #ccc; /* Optional: Add a border */
     border-radius: 5px; /* Optional: Add rounded corners */
 }
+/* Standardize all images */
+img {
+    width: 200px; /* Set a consistent width for all images */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Crop images to fit if necessary */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 10px; /* Add spacing around images */
+    box-shadow: var(--box-shadow); /* Add a subtle shadow for polish */
+}
+
+/* Ensure images inside a container are aligned */
+.image-container {
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 15px; /* Add spacing between images */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Align images vertically */
+}
