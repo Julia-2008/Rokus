@@ -187,9 +187,15 @@ footer a {
     flex-wrap: wrap; /* Wrap to the next line if necessary */
     gap: 10px; /* Add spacing between images */
 
-img {
-    height: 200px; /* Fixed height */
-    width: auto; /* Allow width to adjust proportionally */
-    border-radius: 10px; /* Keep the rounded corners */
-    margin: 10px; /* Maintain spacing */
-    box-shadow: var(--box-shadow); /* Retain the shadow for polish */
+.pet-images {
+  display: flex;
+  justify-content: center; /* Align images horizontally */
+  gap: 10px; /* Add spacing between images */
+}
+
+.pet-images img {
+  width: 200px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
+}
