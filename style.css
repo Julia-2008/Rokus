@@ -182,3 +182,10 @@ footer a {
 .pet-link:hover {
   transform: translateY(-10px); /* Adds hover effect */
 }
+.pet-image {
+  width: 200px; /* Resize images to a width of 200px */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 10px; /* Add spacing between the images */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
