@@ -189,7 +189,7 @@ footer a {
 }
 
 .pet-image {
-    width: 150px; /* Adjust the size as needed */
+    width: 200px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
     border: 1px solid #ccc; /* Optional: Add a border */
     border-radius: 5px; /* Optional: Add rounded corners */
