@@ -189,15 +189,13 @@ footer a {
 
 .pet-images {
   display: flex; /* Align images side by side */
-  flex-wrap: wrap; /* Wrap to the next line if needed */
+  flex-wrap: wrap; /* Wrap to the next line if necessary */
   gap: 15px; /* Add spacing between images */
-  justify-content: center; /* Center the images */
+  justify-content: center; /* Aligns items in the center */
 }
 
 .pet-images img {
   width: 200px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Prevent distortion */
-  border-radius: 10px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
 }
